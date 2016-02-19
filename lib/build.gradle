@@ -1,5 +1,8 @@
 apply plugin: 'android-library'
 
+apply plugin: 'com.github.dcendents.android-maven'  
+group='com.github.bohlool'
+
 android {
     compileSdkVersion 19
     buildToolsVersion "19.1.0"
